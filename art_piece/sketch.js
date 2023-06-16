@@ -2,7 +2,7 @@ let features = [0.38, 0.2, 0.72, 0.0, 0.7];
 let acousticness = features[0];
 let danceability = features[1];
 let energy = features[2]; // represeted by the amount of colours
-let instrumentalness = features[3];
+let instrumentalness = 1 - features[3];
 let valence = features[4]; // represented by the colours of the art pieces
 const alphabet = [
   "a",
