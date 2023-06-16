@@ -1,4 +1,4 @@
-let features = [0.38, 0.2, 0.72, 0.0, 0.7];
+let features = [0.38, 0.2, 0.72, 1.0, 0.7];
 let acousticness = features[0];
 let danceability = features[1];
 let energy = features[2]; // represeted by the amount of colours
